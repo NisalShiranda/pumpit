@@ -25,7 +25,7 @@ function NavBar() {
                     <p className="text-sm">English</p>
                     <MdArrowDropDown className="flex justify-center items-center" />
                 </div>
-                <div className="lg:mx-4 font-medium text-md reload">Reload & Pay</div>
+                <div className="lg:mx-4 text-center font-medium text-md reload">Reload & Pay</div>
                 <div className="flex flex-row justify-center items-center place-content-center ">
                     <IoCart className="cart mx-4 text-4xl" />
                     <FaSearch className="search text-4xl " />
