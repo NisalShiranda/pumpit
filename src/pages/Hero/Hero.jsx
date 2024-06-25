@@ -17,16 +17,28 @@ const Hero = () => {
       <Carousel>
         <Carousel.Item >
           <img className="image" src={H1} alt="Home" />
-          <Carousel.Caption className=" mb-10">
-            <p>Nisal Shiranda</p>
+          <Carousel.Caption >
+            <p className="text-xl font-bold text-yellow-300 sm:text-2xl sm:font-thin">Get Your Electricity Bill Covered</p>
+            <div className="hidden sm:block">
+              <p>Up TO Rs.10,000</p>
+              <p>*50 Lucky Winners</p>
+              <p>Simply reload or pay your Dialog Connection</p>
+            </div>
+            <button className="bg-white text-red-800 font-semibold rounded px-2 sm:text-5xl">PayNow</button>
             
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item >
           <img className="image" src={H2} alt="Home" />
-          <Carousel.Caption >
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <Carousel.Caption className="">
+            <p className="text-xl font-bold text-yellow-300">EXCLUSIVE</p>
+            <p className="text-xl font-bold text-white">ONLINE OFFER</p>
+            <div className="hidden">
+              <p>Up TO Rs.10,000</p>
+              <p>*50 Lucky Winners</p>
+              <p>Simply reload or pay your Dialog Connection</p>
+            </div>
+            
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
