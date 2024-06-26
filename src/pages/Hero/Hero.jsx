@@ -14,52 +14,12 @@ import H4 from "../../../public/h4.jpg"
 const Hero = () => {
   return (
     <>
-      <Carousel>
-        <Carousel.Item >
-          <img className="image" src={H1} alt="Home" />
-          <Carousel.Caption >
-            <p className="text-xl font-bold text-yellow-300 sm:text-2xl sm:font-thin">Get Your Electricity Bill Covered</p>
-            <div className="hidden sm:block">
-              <p>Up TO Rs.10,000</p>
-              <p>*50 Lucky Winners</p>
-              <p>Simply reload or pay your Dialog Connection</p>
-            </div>
-            <button className="bg-white text-red-800 font-semibold rounded px-2 sm:text-5xl">PayNow</button>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item >
-          <img className="image" src={H2} alt="Home" />
-          <Carousel.Caption className="">
-            <p className="text-xl font-bold text-yellow-300">EXCLUSIVE</p>
-            <p className="text-xl font-bold text-white">ONLINE OFFER</p>
-            <div className="hidden">
-              <p>Up TO Rs.10,000</p>
-              <p>*50 Lucky Winners</p>
-              <p>Simply reload or pay your Dialog Connection</p>
-            </div>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="image" src={H3} alt="Home" />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="image" src={H4} alt="Home" />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+      <div className="w-[300px] h-[300px] bg-[#000000] absolute top-[30%] left-[50%] translate-x-[-50%] blur-[150px]" ></div>
+        <div className="box bg-white/20 w-[200px] p-[20px] relative top-[100px] left-[50%] translate-x-[-50%]   text-black] backdrop-blur-[100px] rounded border-1">
+          <p className="font-bold text-lg text-center">Nisal Shiranda Ranasinghe</p>
+        </div>
+      
+      
     </>
   );
 }
