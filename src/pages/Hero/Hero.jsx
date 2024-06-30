@@ -9,9 +9,9 @@ function Hero(){
           <div className="flex  items-center box1">
             <p className="md:text-4xl font-bold">Nisal Shiranda</p>
           </div>
-          <div className="flex  ">
-          <div className="hero-color ">
-                <div className="h-red"></div>
+          <div className="flex overflow-hidden  ">
+          <div className="hero-color  ">
+                <div className="h-red "></div>
                 <div className="h-yellow"></div>
                 <div className="h-blue"></div>
             </div>
