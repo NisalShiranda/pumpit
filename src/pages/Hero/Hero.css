@@ -4,7 +4,7 @@
 }
 
 .hero-color{
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 
@@ -13,8 +13,10 @@
     background-color: #FF0000;
     width: 300px;
     height: 300px;
-    background-radius: 50%;
-    left:150px;
+    left: 150px;
+    border-radius: 50%;
+    filter: blur(100px);
+    
     z-index: 1;
     
 
@@ -28,6 +30,8 @@
     height: 300px;
     top:200px;
     z-index: 2;
+    border-radius: 50%;
+    filter: blur(100px);
 }
 
 .h-blue{
@@ -39,6 +43,8 @@
     top:200px;
     left:300px;
     z-index: 1;
+    border-radius: 50%;
+    filter: blur(100px);
 
 
 }

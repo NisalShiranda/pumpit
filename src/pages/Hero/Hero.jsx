@@ -11,7 +11,7 @@ function Hero(){
           </div>
           <div className="flex overflow-hidden  ">
           <div className="hero-color  ">
-                <div className="h-red "></div>
+                <div className="h-red  "></div>
                 <div className="h-yellow"></div>
                 <div className="h-blue"></div>
             </div>
