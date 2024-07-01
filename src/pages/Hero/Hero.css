@@ -1,50 +1,120 @@
 .hero-container{
     max-width: 1210px !important;
     margin: auto;
+    
 }
 
-.hero-color{
-    position: relative;
-    z-index: -1;
-}
+.color-hero{}
+   
 
 .h-red{
     position: absolute;
-    background-color: #FF0000;
-    width: 300px;
-    height: 300px;
-    left: 150px;
-    border-radius: 50%;
-    filter: blur(100px);
+    background-color: #FF1E1E;
+    width: 40%;
+    height:300px;
+    z-index:3;
+    filter: blur(80px);
     
-    z-index: 1;
-    
-
 }
+
+
+
+
+
+
 
 .h-yellow{
     position: absolute;
-    background-color: #FFDB00;
-    background-radius: 100%;
-    width: 300px;
+    background-color: #FFDA78;
+    width: 40%;
     height: 300px;
-    top:200px;
     z-index: 2;
-    border-radius: 50%;
-    filter: blur(100px);
+    top: 35%;
+    left: 10%;
+    filter: blur(80px);
+    
 }
 
 .h-blue{
     position: absolute;
-    background-color: #4C3BCF;
-    background-radius: 100%;
-    width: 300px;
+    background-color: #96C9F4;
+    width: 40%;
     height: 300px;
-    top:200px;
-    left:300px;
     z-index: 1;
-    border-radius: 50%;
-    filter: blur(100px);
-
-
+    top: 35%;
+    bottom: 50%;
+    left: 50%;
+    filter: blur(80px);
+    
 }
+
+@media (min-width: 0px) {
+    .h-red{
+        width: 40%;
+        height: 300px;
+        transform: translate(-50%);
+        left: 50%;
+        top: 22%;
+        right: 50%;
+        filter: blur(80px);
+    }
+}
+
+@media (min-width: 768px) {
+    .h-red{
+        width: 30%;
+        height: 300px;
+        transform: translate(-50%);
+        left: 70%;
+        top: 15%;
+        filter: blur(80px);
+        
+    }
+
+    .h-yellow{
+        width: 30%;
+        height: 300px;
+        left: 50%;
+        top: 30%;
+        filter: blur(80px);
+    }
+
+    .h-blue{
+        width: 30%;
+        height: 300px;
+        left: 65%;
+        top: 30%;
+        z-index: 4;
+        filter: blur(80px);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
