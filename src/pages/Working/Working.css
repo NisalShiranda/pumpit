@@ -9,10 +9,11 @@
     width: 40%;
     height: 300px;
     z-index: 0;
+    top: 50px;
     
     
     
-    filter: blur()
+    filter: blur(100px)
     
 }
 
@@ -22,10 +23,10 @@
     width: 40%;
     height: 300px;
     z-index: 1;
-    top: 50%;
-    left: 50%;
+    left: 10%;
+    top: 50px;
     
-    filter: blur()
+    filter: blur(100px)
 }
 
 .w-purple{
@@ -34,10 +35,10 @@
     width: 40%;
     height: 300px;
     z-index: 2;
-    top: 50%;
+    top: 100px;
     left: 50%;
     transform: translate(-50%);
-    filter: blur()
+    filter: blur(100px)
 }
 
 .w-blue{
@@ -46,25 +47,48 @@
     width: 40%;
     height: 300px;
     z-index: 3;
-    top: 50%;
-    left: 50%;
+    top: 150px;
+    left: 80%;
     transform: translate(-50%);
-    filter: blur()
+    filter: blur(100px)
 }
+
+.box1{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) {
     .w-yellow{
         position: absolute;
+        left: 20%;
+
         
-        top: 22%;
-        right: 50%;
+        
         z-index:0;
         
     }
     .w-red{
         position: absolute;
-        left: 60%;
-        top: 40%;
+        left: 50%;
+        top: 100px;
         z-index: 1;
 
         
@@ -75,14 +99,14 @@
         left: 30%;
         z-index: 2;
         
-        top: 80%;
+        top: 200px;
        
     }
     .w-blue{
         position: absolute;
         
-        top: 100%;
-        right: 50%;
+        top: 250px;
+        left: 60%;
         
     }
 }

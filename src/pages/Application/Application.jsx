@@ -11,7 +11,7 @@ import C6 from "../../../public/c6.png"
 function Application() {
   return (
     <>
-        <div className="application-container  pb-2">
+        <div className="application-container  pb-16">
             <p className="mx-6 xl:mx-0 font-bold sm:text-2xl">Application areas </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-3 xl:grid-cols-3">
                 
