@@ -1,5 +1,17 @@
 .card-text{
-    background-color: white;
+    background-color: #EBF4F6;
     
     border:none !important;
+}
+
+.cardImage{
+    position: relative;
+    top: 40px;
+}
+
+ .cardImage:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+    
+    
 }
