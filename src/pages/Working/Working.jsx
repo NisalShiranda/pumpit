@@ -11,11 +11,11 @@ function Working() {
     <>
     <div className="working-container  pb-[600px] ">
         <div className="">
-        <p className="mx-6 font-bold text-lg lg:mx-0">How We are Working</p>
+        <p className="mx-6 font-bold text-lg md:text-xl lg:text-2xl lg:mx-0">How We are Working</p>
         </div>
         
         <div className="flex justify-center items-center   ">
-            <div className="box1 absolute z-10  grid grid-cols-1 gap-4  sm:grid sm:grid-cols-3 mt-[550px] sm:mt-[300px] md:mt-[250px] sm:mx-6 lg:mx-[100px] " data-aos="fade-left" >
+            <div className="box1 absolute z-10  grid grid-cols-1 gap-4  md:grid md:grid-cols-3 mt-[550px] sm:mt-[400px] md:mt-[250px] sm:mx-6 lg:mx-[100px] " data-aos="fade-left" >
                 <div className="flex flex-col  bg-white/30 px-[40px] py-5 rounded-2xl">
                     <p className="font-bold ">1. Data collection</p>
                     <p className="font-light pt-5">We collect requirements for the project. We set goals and objectives</p>
