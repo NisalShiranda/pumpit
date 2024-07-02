@@ -9,7 +9,7 @@ function Working() {
     })
   return (
     <>
-    <div className="working-container  pb-[600px] ">
+    <div className="working-container  pb-[600px] " id="working">
         <div className="">
         <p className="mx-6 font-bold text-lg md:text-xl lg:text-2xl lg:mx-0">How We are Working</p>
         </div>

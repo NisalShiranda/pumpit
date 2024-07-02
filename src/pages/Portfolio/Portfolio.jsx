@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 function Portfolio() {
   AOS.init({duration: 1500});
   return (
-    <div className="portfolio-container md:pt-0  lg:py-[100px]">
+    <div className="portfolio-container md:pt-0  lg:py-[100px]" id="portfolio">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           <div className="flex justify-center items-center" data-aos="fade-right"><img className="w-[100%]" src={Phone} alt="Phone"></img></div>
           <div className="flex flex-col justify-center items-center">

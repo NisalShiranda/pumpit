@@ -7,6 +7,7 @@ import Working from "./pages/Working/Working"
 import Portfolio from "./pages/Portfolio/Portfolio"
 import Contact from "./pages/Contact/Contact"
 import Footer from "./pages/Footer/Footer"
+import BacktoTopButton from "./components/BackToTopButton"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
+      <BacktoTopButton />
 
     </>
   )

@@ -10,7 +10,7 @@ function Hero(){
         <div className="h-blue"></div>
       </div>
 
-      <div className="hero-container pb-2">
+      <div className="hero-container pb-2" id="home">
         <div className="grid grid-cols-1 md:grod md:grid-cols-2">
           <div className="flex justify-center items-center md:order-2">
             <img className="relative z-1 w-[80%] " src={HeroImage}></img>

@@ -8,7 +8,7 @@ function Contact() {
     AOS.init({duration: 1500});
   return (
     <>
-        <div className="contact-container pt-5 lg:py-[30px] lg:pb-[100px]">
+        <div className="contact-container pt-5 lg:py-[30px] lg:pb-[100px]" id="contact">
             <div className="contact-color">
                 <div className="c-red bg-rose-400 w-[50%] h-[200px] absolute z-[-2] left-[35%] mt-[450px] md:mt-[100px] md:w-[30%] md:left-[50%] lg:mt-[200px] blur-[100px]  "></div>
                 <div className="c-red bg-orange-500 w-[50%] h-[200px] absolute z-[-2] left-[10%] mt-[450px] md:mt-[100px] md:w-[30%] md:left-[60%] blur-[100px] "></div>
