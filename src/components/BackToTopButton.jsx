@@ -24,7 +24,7 @@ function BacktoTopButton() {
   return (
     <>
         {backToTopButton && (
-            <button className="btn-up hidden sm:block text-4xl" onClick={scrollUp}>^</button>
+            <button className="btn-up hidden sm:block text-4xl text-white" onClick={scrollUp}>^</button>
         )} 
     </>
     
