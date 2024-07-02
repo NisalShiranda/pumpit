@@ -1,0 +1,27 @@
+.portfolio-container{
+    max-width: 1210px !important;
+    margin: auto;
+}
+
+.p-red{
+   width: 40%;
+   height: 200px;
+    background-color: red;
+    border-radius:100%;
+    left: 30%;
+    filter: blur(100px); 
+    
+    
+}
+
+.p-yellow{
+    width: 40%;
+    height: 200px;
+    background-color: yellow;
+    border-radius:100%;
+    left: 40%;
+    margin-top: 100px;
+    filter: blur(100px); 
+    
+    
+}

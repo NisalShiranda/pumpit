@@ -5,6 +5,8 @@ import Navbar from "./pages/Navbar/Navbar.jsx"
 import Application from "./pages/Application/Application"
 import Working from "./pages/Working/Working"
 import Portfolio from "./pages/Portfolio/Portfolio"
+import Contact from "./pages/Contact/Contact"
+import Footer from "./pages/Footer/Footer"
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Application />
       <Working />
       <Portfolio />
+      <Contact />
+      <Footer />
 
     </>
   )
